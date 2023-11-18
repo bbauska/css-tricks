@@ -5,6 +5,7 @@ css tricks give you useful snippets for your web projects.  Also, sample .sass a
 # Highlighting obligatory form fields
 You can optimize forms embedded in your website by using :required and :optional. Both the pseudo classes allow color to indicate which form fields have to be filled out and which are optimal. The corresponding CSS snippet looks like this:
 
+```
 :required {
   border: 1px solid red;
 }
@@ -12,6 +13,8 @@ You can optimize forms embedded in your website by using :required and :optional
 :optional {
 border: 1px solid black;
 }
+```
+
 In this case, the required fields get a red border while the optional fields are displayed with a plain black frame:
 
 Highlighted form fields
