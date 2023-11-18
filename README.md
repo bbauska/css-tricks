@@ -1,7 +1,10 @@
 # css-tricks
 css tricks give you useful snippets for your web projects.  Also, sample .sass and .less programs &amp; definitions.
 
-# Changing website elements with CSS filters
+## Numbering headings
+If you’ve added different headings and sub headings in your HTML document and numbered them before, you probably did this manually or by using a script. But instead, you can simply use CSS and let the style sheet language do the counting. This old CSS trick, which is supported by all current browsers, can be used with the following CSS snippet:
+
+## Changing website elements with CSS filters
 CSS is not only a good alternative to Photoshop when it comes to shading; the style sheet language also comes with useful filter effects, similar to those of image editing programs. This is how graphics, backgrounds, texts, and videos can be creatively adapted by increasing the brightness, changing the contrast, or using grayscale. The filter options are available in nearly all modern browsers (except Internet Explorer). You can see the syntax of these CSS effects in the grayscale filter example:
 
 ```
@@ -27,7 +30,7 @@ opacity(VALUE) | Opacity | Maximum value: 1 (the element completely disappears) 
 saturate(VALUE) | Sättigung | Standard: 1, increase: >1, decrease: <1 |
 sepia(VALUE) | Sepia colors | Maximum value: 1 (corresponds to a Sepia tone of 100%) |
 
-# Highlighting obligatory form fields
+## Highlighting obligatory form fields
 You can optimize forms embedded in your website by using :required and :optional. Both the pseudo classes allow color to indicate which form fields have to be filled out and which are optimal. The corresponding CSS snippet looks like this:
 
 ```
@@ -42,7 +45,7 @@ border: 1px solid black;
 
 In this case, the required fields get a red border while the optional fields are displayed with a plain black frame:
 
-Highlighted form fields
+## Highlighted form fields
 The two applied CSS pseudo classes highlight certain form fields depending on their importance
 Lists with triangular bullet points
 If you have unordered lists in your HTML document, you don’t always need to use the standard round bullet points. With the following CSS trick you can easily create triangular bullet points:
