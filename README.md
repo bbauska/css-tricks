@@ -3,6 +3,25 @@ css tricks give you useful snippets for your web projects.  Also, sample .sass a
 
 ## Numbering headings
 If you’ve added different headings and sub headings in your HTML document and numbered them before, you probably did this manually or by using a script. But instead, you can simply use CSS and let the style sheet language do the counting. This old CSS trick, which is supported by all current browsers, can be used with the following CSS snippet:
+```
+#Heading {
+counter-reset: heading;
+}
+h1:before {
+  content: counter(heading)") ";
+  counter-increment: heading;
+}
+h1 {
+  counter-reset: subheading;
+}
+h2:before {
+  content: counter(heading)"." counter(subheading)") ";
+  counter-increment: subheading;
+}
+body{
+  font-family: courier new;
+}
+```
 
 ## Changing website elements with CSS filters
 CSS is not only a good alternative to Photoshop when it comes to shading; the style sheet language also comes with useful filter effects, similar to those of image editing programs. This is how graphics, backgrounds, texts, and videos can be creatively adapted by increasing the brightness, changing the contrast, or using grayscale. The filter options are available in nearly all modern browsers (except Internet Explorer). You can see the syntax of these CSS effects in the grayscale filter example:
