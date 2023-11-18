@@ -16,7 +16,7 @@ The specified filter (grayscale in this case), is displayed in parenthesis and c
 
 CSS enables you to customize graphic web elements with filter details such as 'grayscale'
 
-Filter    Description  Value
+| Filter | Description | Value |
 | ----- | --------------- | --------- |
 blur(VALUE) | Soft focus | Radius in Pixels |
 
