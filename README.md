@@ -19,12 +19,10 @@ CSS enables you to customize graphic web elements with filter details such as 'g
 | Filter | Description | Value |
 | ----- | --------------- | --------- |
 blur(VALUE) | Soft focus | Radius in Pixels |
-
 brightness(VALUE) | Brightness | Standard: 1, brighten: >1, darken: <1 |
-
 contrast(VALUE) | Contrast | Standard: 1, increase: >1, decrease: <1 |
+invert(VALUE) | Invert colors | Value of 1: complete inversion |
 
-invert(VALUE) | Invert colors | Value of 1: complete inversion
 # Highlighting obligatory form fields
 You can optimize forms embedded in your website by using :required and :optional. Both the pseudo classes allow color to indicate which form fields have to be filled out and which are optimal. The corresponding CSS snippet looks like this:
 
