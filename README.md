@@ -24,7 +24,7 @@ body{
 ```
 
 The results will look like this:
-<a href="">Numbering CSS headings and sub-headings"</a>
+<a href="./images/numbering-headings.jpg">Numbering CSS headings and sub-headings"</a>
 
 CSS can be used to number headings and sub headings
 
