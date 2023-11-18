@@ -3,6 +3,7 @@ css tricks give you useful snippets for your web projects.  Also, sample .sass a
 
 ## Numbering headings
 If you’ve added different headings and sub headings in your HTML document and numbered them before, you probably did this manually or by using a script. But instead, you can simply use CSS and let the style sheet language do the counting. This old CSS trick, which is supported by all current browsers, can be used with the following CSS snippet:
+
 ```
 #Heading {
 counter-reset: heading;
