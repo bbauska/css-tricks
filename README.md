@@ -24,7 +24,8 @@ body{
 ```
 
 The results will look like this:
-<image>
+<a href="">Numbering CSS headings and sub-headings"</a>
+
 CSS can be used to number headings and sub headings
 
 ## Hiding elements in an SEO-friendly way
