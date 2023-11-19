@@ -30,7 +30,7 @@ One of the most valuable features of Sass is the ability to use variables. This 
 
 Here’s what it would look like if we defined a variable for your site’s primary color and then used it for both the H1 heading and a button class.
 
-``
+```
 $primary-color: #0078d7
 
 h1
@@ -39,7 +39,7 @@ h1
 .btn
   background-color: $primary-color
   color: white
-  ```
+```
 
 ## Mathematical Operations are Supported Too
 Sass also supports mathematical operations, allowing developers to quickly perform calculations and create complex layouts.
