@@ -5,9 +5,9 @@ CSS preprocessors are scripting languages that extend the capabilities of CSS. T
 
 They allow developers to use variables, functions, and other programming constructs in their stylesheets. This makes it easier to maintain and scale large CSS projects and also enables the use of more advanced design patterns.
 
-The most common types of CSS preprocessors are Sass , SCSS , Less , and Stylus . Each of these preprocessors has its unique syntax and features, but they all make it easier to write and manage CSS code.
+The most common types of CSS preprocessors are <b>Sass</b> , <b>SCSS</b> , <b>Less</b> , and <b>Stylus</b> . Each of these preprocessors has its unique syntax and features, but they all make it easier to write and manage CSS code.
 
-Sass, for example, uses indentation to indicate the nesting of selectors, whereas SCSS uses curly braces like CSS. On the other hand, Less uses a syntax similar to CSS but with added features like variables and mixins. Stylus is a bit different. It uses a more dynamic approach and a more flexible syntax that allows developers to write code in a way that feels more natural to them.
+<b>Sass</b>, for example, uses indentation to indicate the nesting of selectors, whereas SCSS uses curly braces like CSS. On the other hand, Less uses a syntax similar to CSS but with added features like variables and mixins. Stylus is a bit different. It uses a more dynamic approach and a more flexible syntax that allows developers to write code in a way that feels more natural to them.
 
 ## Why Use CSS Preprocessors?
 Before diving into the specifics of each preprocessor, it’s essential to understand the purpose of using a preprocessor in the first place.
@@ -19,7 +19,7 @@ This can make it easier to apply consistent styling throughout a website and mak
 Additionally, preprocessors can be used to write more advanced CSS, such as grid frameworks, to build responsive websites with less code.
 
 ## Sass: The Most Powerful CSS Extension Language
-Sass, short for Syntactically Awesome Style Sheets , is one of the oldest and most popular CSS preprocessors.
+Sass, short for <b>Syntactically Awesome Style Sheets</b> , is one of the oldest and most popular CSS preprocessors.
 
 It was first released in 2006 and has become a widely-used tool for writing efficient and maintainable CSS code. Sass uses indentation to indicate selectors’ nesting, making it easy to read and understand.
 
@@ -130,8 +130,8 @@ SCSS has all the features of Sass, like variables, mixins, and functions, but it
 You can write plain CSS code in an SCSS file, which will work the same way.
 
 
-|  Feature | Sass Syntax | SCSS Syntax |
-|+---------+|+----------------+|+-------------------+|
+|  Feature  | Sass Syntax | SCSS Syntax |
+| --- | --- | --- |
 | Nesting |	Indentation based |	Curly braces based |
 | Variables |	$variable-name: value |	$variable-name: value; |
 | Defining Mixins	| =mixin-name | @mixin mixin-name |
