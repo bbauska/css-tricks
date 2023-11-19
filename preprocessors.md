@@ -130,7 +130,7 @@ SCSS has all the features of Sass, like variables, mixins, and functions, but it
 You can write plain CSS code in an SCSS file, which will work the same way.
 
 
-|  Feature  |    Sass Syntax    |	SCSS Syntax |
+|  Feature | Sass Syntax | SCSS Syntax |
 |+---------+|+----------------+|+-------------------+|
 | Nesting |	Indentation based |	Curly braces based |
 | Variables |	$variable-name: value |	$variable-name: value; |
